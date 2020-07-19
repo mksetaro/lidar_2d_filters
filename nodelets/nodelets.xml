@@ -1,0 +1,9 @@
+<library path="lib/libLidarFiltersNodelets">
+        <class name="lidar_filters/OutlierFilter"
+               type="lidar_filters::OutlierFilter"
+               base_class_type="nodelet::Nodelet">
+               <description>
+                outliers filter for 2D laser scan
+               </description>
+        </class>
+</library>

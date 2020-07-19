@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="lidar_2d_filters" type="outlier_filter_node" output="screen" name="outlier_filter_node">
+        <rosparam command="load" file="$(find lidar_2d_filters)/config/filters.yaml" />
+    </node>
+</launch>
